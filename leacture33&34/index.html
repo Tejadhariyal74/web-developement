@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS FLOAT AND CLEAR</title>
+    <style>
+img{
+    float: right;
+}
+.cards{
+    border: 2px solid black;
+    display: flow-root;
+}
+.card{
+    border: 2px solid red;
+}
+.card:nth-child(3){
+    background-color: aqua;
+clear: both;
+}
+    </style>
+</head>
+<body>
+    <div class="cards">
+<div class="card">card1</div>
+<img src ="https://static.vecteezy.com/system/resources/thumbnails/031/922/143/small/a-man-sitting-on-the-back-of-a-boat-at-sunset-ai-generated-free-photo.jpg"
+          width="230px"      alt="">
+<div class="card">card2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ad suscipit quidem, unde commodi ex aliquid omnis placeat facere, repellendus nobis nihil quos dolorem assumenda reprehenderit? Beatae, quos quam? Dolore, culpa cum laboriosam itaque iure facere esse ut dolores, earum at magnam iusto. Cupiditate, ipsum?</div>
+<div class="card">card3</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event bublling</title>
+
+</head>
+<body>
+    <div class="container">
+        <section class="childcontainer">
+            <div class="child">I am a child.
+            </div>
+        </section>
+    </div>
+    <script>
+        document.querySelector(".child").addEventListener("click",()=>{
+            alert(".Dont hack us by Right click")
+            e.stopProgation()
+        })
+        setInterval(()=>{
+            document.querySelector(".childcontainer").style.background="red"
+        },3000);
+        setInterval(()=>{
+            document.querySelector(".childcontainer").style.background=getRandom
+        },1000);
+    </script>
+</body>
+</html>

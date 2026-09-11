@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .html{
+            font-size: 12px;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            box-sizing: border-box;
+            border: 2px solid black;
+            height: 10vh;
+            /* width: 2048px; */
+            width: 80vw;
+margin: auto;
+background-color: aqua;
+        }
+           .container{
+            box-sizing: border-box;
+            border: 2px solid black;
+             min-height: 80vh;
+            /* width: 2048px; */
+            width: 80vw;
+margin: 23px auto;
+background-color: aquamarine;
+        }
+.container > div{
+    font-size: 2em;
+    /* font-size: 2rem; */
+width: 50%;
+border: 2px solid blue;
+}
+.container>div>div{
+    border: 2px solid black;
+    width: 50%;
+}
+.my cont{
+    border: 3px solid black;
+    margin: 23px auto;
+box-sizing: border-box;
+background-color: red;
+color: yellow;
+font-size: 22px;
+width: 100 vmin;
+}
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        this is a box.
+    </div>
+    <div class="container">
+        <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, commodi totam velit ipsam laudantium quae, dolor rem illum sed iusto adipisci! Nulla harum officiis odio, quas tempora itaque dolor saepe laudantium repellat facilis ullam earum incidunt. Dolor qui, recusandae tenetur deserunt sequi adipisci autem fugiat!
+            <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, officia.</div>
+        </div>
+    </div>
+    <div class="my cont">
+        another container.
+    </div>
+</body>
+</html>

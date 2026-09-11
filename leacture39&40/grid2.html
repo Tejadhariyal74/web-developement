@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS GRID</title>
+    <style>
+        .item1{
+background-color: aqua;
+grid-area: nav;
+        }
+        .item2{
+background-color: blue;
+grid-area: side;
+        }
+    .item3{
+background-color: brown;
+grid-area: auto;
+        }
+        .item4{
+background-color: aquamarine;
+grid-area: span;
+        }
+        .item5{
+background-color: bisque;
+grid-area: nav;
+        }
+.container{
+    border: 2px solid black;
+   grid-template-areas:"nav nav nav" ; 
+   grid-template-areas: "side article article";
+   grid-template-areas: "footer footer footer";
+   width: 80vw;
+   grid-template-columns:1fr 1fr 1fr ;
+   /* gap: 34px; */
+row-gap: 10px;
+column-gap: 44px;
+height: 100vh;
+justify-content: center;
+align-items: center;
+grid-template-rows: repeat(2,80px);
+grid-template-columns: repeat(4,80px);
+place-content: center;
+}
+ </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items item1">1</div>
+        <div class="items item2">2</div>
+        <div class="items item3">3</div>
+        <div class="items item4">4</div>
+        <div class="items item5">5</div>
+    </div>
+</body>
+</html>

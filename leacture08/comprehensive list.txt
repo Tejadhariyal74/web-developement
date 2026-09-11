@@ -1,0 +1,59 @@
+Block Element (most commonly used first)
+
+<div>:A generic container for flow content.
+<p>:paragraph.
+<h1>,<h2>,<h3>,<h4>,<h5>,<h6>:Heading.
+<ul>:unordered list.
+<ol>:ordered list.
+<li>:List time.
+<table>:Table.
+<form>:A section containing form controls.
+<section>:A stamdalone section of a document.
+<header>:A container for introductory content or a set of navigation links.
+<footer>:footer of a section or page.
+<nav>:A section of a page that contains navigation links.
+<article>:A self-contained composition in a document.
+<aside>:A section of a page that contains information indirctly related to the main.
+<main>:The main content of the document.
+<fieldset>:A set of form controls grouped under a common name.
+<blockquote>:A block of text that is a quotation from another source.
+<pre>:prefornatted text.
+<canvas>:A container used to draw graphics via javascript.
+<dl>:Description list.
+<dt>:term in a Description list.
+<dd>:Description in a Description list.
+<figure>:Any content that is referenced from the main content.
+<figcaption>:A caption for a <figure> Element.
+<address>:contact information for the author or owner of the document.
+<hr>:A thematic break or a horizontal rule.
+<tfoot>:footer of a table.
+
+
+INLINE Element(MOST commonly USED FIRST)
+
+
+<a>:Anchar or hyperlinks.
+<img>:Image.
+<span>:ganeric inline container.
+<input>:input field.
+<label>:label for a form Element.
+<strong>:strong emphasis .
+<em>:emphasized text.
+<br>:line break.
+<code>:code snippet.
+<b>:Bold text.
+<i>:Italic text.
+<u>:Underlined text.
+<small>:smaller text.
+<sub>:subscript.
+<sup>:superscript.
+<mark>:marked or highlighted text.
+<q>:short inline quotation.
+<cite>:citation.
+<kbd>:keyboard input.
+<samp>:sample output.
+<abbr>:Abbreviation.
+<var>:variable in a mathematical.
+<time>:Time.
+<data>:Machine-readable translation of a content.
+<acronym>:Acronym (Not supported in HTML5).

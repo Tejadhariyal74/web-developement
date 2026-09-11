@@ -1,0 +1,1 @@
+alert("Please open this website if you are 18+")
